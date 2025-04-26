@@ -1,0 +1,152 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#dolor{
+    color: blue;
+    font-weight: bold;
+}
+
+#heading, .paragraph{
+    color: rgb(70, 4, 4);
+    font-size: 20px;
+}
+
+.name{
+    color: brown;
+    background-color: lightpink;
+}
+
+#box{
+    height: 50px;
+    width: 50px;
+    background-image: url(./myntra.jpeg);
+    background-size: cover;
+}
+
+.box{
+
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box1{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(24, 21, 187);
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.box2{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(202, 109, 114);
+    text-align: center;
+}
+
+.box3{
+    height: 100px;
+    width: 100px;
+    background-color: rgb(142, 218, 135);
+    margin-bottom: 5px;
+    text-align: right;
+}
+
+.padding{
+    background-color: crimson;
+    height: 100px;
+    width: 100px;
+    padding: 30px 30px 30px 30px;
+    border: 5px dotted rgb(28, 102, 21);
+    margin: 30px 30px 30px 30px;
+    border-radius: 5ch;
+}
+
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: lavender;
+    border: 1px solid black;
+    margin: 15px;
+    display: inline-block;
+}
+
+#first{
+    background-color: lightblue;
+    height: 100px;
+    width: 200px;
+}
+
+#second{
+    background-color: lightgreen;
+    width: 60%;
+}
+
+.container{
+    position: relative;
+}
+
+.index1, .index2{
+    position: absolute;
+    border: 3px solid black;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    font-size: 25px;
+}
+
+.index1{
+    background-color: cadetblue;
+    left: 20px;
+    top: 60px;
+    z-index: 1;
+}
+
+.index2{
+    background-color: rgb(129, 47, 125);
+    left: 20px;
+    top: 60px;
+    z-index: 2;
+}
+
+.container{
+    height: 400px;
+    width: 600px;
+    border: 3px solid black;
+    margin: 10px;
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+    border: 1px solid black;
+    margin: 5px;
+}
+
+.box1{
+    background-color: cornflowerblue;
+}
+
+.box2{
+    background-color: crimson;
+}
+
+.box3{
+    background-color: olivedrab;
+}
+
+.box4{
+    background-color: orchid;
+}
