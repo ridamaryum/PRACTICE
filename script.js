@@ -1,5 +1,4 @@
-console.log("Hello, World!");
-console.log("This is a test script.");
-console.log("bajitffufjhyfgv");
-
-Math.round(18003.8618);
+console.log(`hello friend`)
+console.log(2+2)
+console.log(`good morning` + `rida`)
+console.warn(`this is warning`);
