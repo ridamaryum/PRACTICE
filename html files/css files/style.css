@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn-click{
+    height: 40px;
+    width: 130px;
+    background-color: rgb(155, 221, 135);
+    color: black;
+    border: none;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.btn-click1{
+    height: 40px;
+    width: 170px;
+    background-color: rgb(245, 248, 243);
+    color: black;
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
