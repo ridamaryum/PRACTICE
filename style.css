@@ -24,3 +24,14 @@
     border-radius: 10px;
     font-size: 15px;
 }
+
+.btn-click2{
+    height: 40px;
+    width: 150px;
+    background-color: rgb(155, 221, 135);
+    color: black;
+    border: none;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+}
