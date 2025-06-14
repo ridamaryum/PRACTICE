@@ -12,7 +12,8 @@ console.log(a-b);
 
 let noOfStudents = 20;
 noOfStudents = noOfStudents + 5;
-console.log(noOfStudents);*/
+console.log(noOfStudents);
 
 let cartQuantity = 0;
-document.querySelector('#cart-summary').innerText = `YOUR BAG HAS ${cartQuantity} ITEMS`;
+document.querySelector('#cart-summary').innerText = `YOUR BAG HAS ${cartQuantity} ITEMS`;*/
+console.log("thanks for shopping with us");
