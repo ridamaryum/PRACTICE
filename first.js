@@ -12,6 +12,10 @@ let mul = a*b;
 console.log("mul=", mul);
 let div = b/a;
 console.log("div=", div);
+let mod = a%b;
+console.log("mod=",mod);    
+let exp = a**2;
+console.log("exp=", exp);
 
 // comparison operators
 let x = 20;
@@ -82,17 +86,43 @@ let dog = new Animal("Buddy", "Dog");
 console.log("Animal Object:", dog);
 console.log(dog.speak());
 
-// promise example
-let myPromise = new Promise((resolve, reject) => {
-    let success = true; // Change to false to test rejection
-    if (success) {
-        resolve("Promise resolved successfully!");
-    } else {
-        reject("Promise rejected!");
-    }
-});
-myPromise
-    .then(result => console.log(result))
-    .catch(error => console.error(error));
-    
+
+// unary operators
+let A = 6;
+let B = 3;
+A++;
+console.log("A:", A);
+
+B--;
+console.log("B:", B);
+
+// assignment operators
+let x1 = 10;
+let y1 = 5;
+x1 -= y1;
+console.log("x1:", x1);
+
+let c = 2;
+let d = 3;
+c *= 3;
+console.log("c:", c);
+
+d /= 2;
+console.log("d:", d);
+
+// bitwise operators
+let bitA = 5; // 0101 in binary
+let bitB = 3; // 0011 in binary
+console.log("bitA & bitB:", bitA & bitB); // AND    
+console.log("bitA | bitB:", bitA | bitB); // OR
+console.log("bitA ^ bitB:", bitA ^ bitB); // XOR
+console.log("~bitA:", ~bitA); // NOT
+console.log("bitA << 1:", bitA << 1); // Left Shift
+console.log("bitA >> 1:", bitA >> 1); // Right Shift
+
+
+
+
+
+
 
